@@ -1,7 +1,10 @@
+import java.util.Arrays;
+
 import javax.swing.JFrame;
 
 public class Main {
 	public static void main(String[] args) {
+		/*
 		// 1. Create the frame.
 		JFrame frame = new JFrame("FrameDemo");
 
@@ -15,6 +18,9 @@ public class Main {
 
 		// 5. Show it.
 		frame.setVisible(true);
+		*/
+		Maze maze = new Maze(5,5);
+		maze.toPrint();
 	}
 
 }
